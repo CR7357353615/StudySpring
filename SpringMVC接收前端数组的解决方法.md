@@ -21,4 +21,4 @@ params中还包括一些别的属性，是后台有定义好的对象去接受�
 public ResultVO queryInfo(Query query, @RequestParam(value = "arrays[]", required = false)String[] arrays, Paging paging)
 ```
 
-并且在query中，不能有与arrays同名的属性。
+并且在Query类中，不能有与arrays同名的属性。
