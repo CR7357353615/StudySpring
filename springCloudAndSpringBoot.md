@@ -1,0 +1,3 @@
+# SpringBoot/SpringCloud
+
+* Application的ComponentScan是默认在当前包及子包下的，所以如果Component和Application不在同一个包，是scan不到的
